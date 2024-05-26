@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataDrivenPractise.SampleTest">
+      <class name="DataDrivenPractise_With_DataProvider.dataPRoviderExample">
         <methods>
-          <include name="test"/>
+          <include name="TestDD"/>
         </methods>
-      </class> <!-- DataDrivenPractise.SampleTest -->
+      </class> <!-- DataDrivenPractise_With_DataProvider.dataPRoviderExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
